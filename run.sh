@@ -18,6 +18,8 @@ if [[ ! -d "$WORKSPACE_DIR" ]]; then
   exit 1
 fi
 
-docker compose run --rm --build \
+docker build -t claude-sandbox .
+
+docker run -it --rm \
   -v "$WORKSPACE_DIR:/workspace" \
-  claude
+  claude-sandbox

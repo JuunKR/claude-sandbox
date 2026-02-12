@@ -4,7 +4,7 @@ A Docker-based execution environment for **Claude Code CLI**.
 
 ## Prerequisites
 
-- [Docker](https://www.docker.com/)
+- [Docker](https://docs.docker.com/engine/install/)
 
 ## Usage
 
