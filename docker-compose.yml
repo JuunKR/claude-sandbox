@@ -1,0 +1,7 @@
+services:
+  claude:
+    build: .
+    container_name: claude-sandbox
+    stdin_open: true
+    tty: true
+    working_dir: /workspace
